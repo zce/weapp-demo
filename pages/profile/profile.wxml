@@ -1,3 +1,11 @@
-<view>
-  <text>关于我页面</text>
+<view class="container">
+  <view class="header">
+    <text class="title">关于我</text>
+  </view>
+  <view class="user" bindtap="getUserInfo">
+    <image class="user-avatar" src="https://avatars2.githubusercontent.com/u/6166576" mode="aspectFit"/>
+    <text class="user-nickname">汪磊</text>
+    <text>Beijing, China</text>
+    <text> Thanks~ </text>
+  </view>
 </view>
