@@ -1,5 +1,10 @@
 {
   "pages":[
     "pages/index/index"
-  ]
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#f0f0f0",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "这是导航标题"
+  }
 }
