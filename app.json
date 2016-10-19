@@ -9,6 +9,10 @@
     "navigationBarTitleText": "这是导航标题"
   },
   "tabBar": {
+    "color": "#c0c0c0",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#35495e",
     "list": [
       {
         "text": "榜单",
