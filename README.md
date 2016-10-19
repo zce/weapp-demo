@@ -15,3 +15,7 @@
 ## 运行方式
 
 直接在`微信Web开发者工具`中打开`project-root`
+
+## 注意事项
+
+`app.json`文件中`tabBar.list`必须有多个成员才会显示`tabBar`
