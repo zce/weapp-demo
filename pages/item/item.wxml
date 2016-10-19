@@ -1,3 +1,16 @@
-<view>
-  <text>单项页面</text>
+<view class="container">
+  <image class="background" src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg" mode="aspectFill"/>
+  <scroll-view class="container" scroll-y="true">
+    <view class="meta">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg" mode="aspectFit"/>
+      <text class="title">湄公河行动(2016)</text>
+      <text class="info">评分：8.2</text>
+      <text class="info">导演：<block> 林超贤 </block></text>
+      <text class="info">主演：<block> 张涵予 </block><block> 彭于晏 </block><block> 孙淳 </block></text>
+    </view>
+    <view class="summary">
+      <text class="label">摘要：</text>
+      <text class="content">2011年10月5日，两艘中国商船在湄公河金三角水域遭遇袭击，13名中国船员全部遇难，泰国警方从船上搜出90万颗冰毒。消息传回国内，举国震惊。为了查明真相，云南缉毒总队长高刚（张涵予 饰）接受了特殊任务，率领一支骁勇善战的战斗小组进入泰国境内，与潜伏在泰国的情报员方新武（彭于晏 饰）碰头，二人联手深入金三角查案。经过调查，发现案件背后果然有着重重疑点，真正的凶手在嫁祸残害无辜中国船员后，不但逍遥法外，更意图利用毒品制造更大的阴谋……二人决定，不惜一切代价也要拿下真凶，打击毒品犯罪，为无辜国人讨回公道！</text>
+    </view>
+  </scroll-view>
 </view>
