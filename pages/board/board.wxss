@@ -18,8 +18,8 @@ page {
   height: 400rpx;
 }
 
-.slide swiper image {
-  height: 100%;
+.slide image {
+  height: 400rpx;
   width: 100%;
 }
 
