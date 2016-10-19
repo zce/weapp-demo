@@ -1,8 +1,8 @@
 {
   "pages":[
+    "pages/search/search",
     "pages/list/list",
-    "pages/board/board",
-    "pages/search/search"
+    "pages/board/board"
   ],
   "window": {
     "navigationBarBackgroundColor": "#f0f0f0",
