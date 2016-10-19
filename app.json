@@ -15,16 +15,22 @@
     "backgroundColor": "#35495e",
     "list": [
       {
+        "text": "搜索",
+        "pagePath": "pages/search/search",
+        "iconPath": "images/search.png",
+        "selectedIconPath": "images/search-actived.png"
+      },
+      {
         "text": "榜单",
         "pagePath": "pages/board/board",
         "iconPath": "images/board.png",
         "selectedIconPath": "images/board-actived.png"
       },
       {
-        "text": "搜索",
-        "pagePath": "pages/search/search",
-        "iconPath": "images/search.png",
-        "selectedIconPath": "images/search-actived.png"
+        "text": "我",
+        "pagePath": "pages/profile/profile",
+        "iconPath": "images/profile.png",
+        "selectedIconPath": "images/profile-actived.png"
       }
     ]
   }
