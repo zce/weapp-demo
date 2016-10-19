@@ -1,3 +1,227 @@
-<view>
-  <text>列表页面</text>
+<view class="container">
+  <view class="header">
+    <text>正在热映</text>
+  </view>
+  <scroll-view scroll-y="true" class="list">
+        <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2380677316.jpg"/>
+      <view class="meta">
+        <text class="title">湄公河行动</text>
+        <text class="sub-title">湄公河行动 (2016)</text>
+        <view class="artists">导演：<block> 林超贤 </block></view>
+      </view>
+      <view class="rating">
+        <text>8.2</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2386736909.jpg"/>
+      <view class="meta">
+        <text class="title">圆梦巨人</text>
+        <text class="sub-title">The BFG (2016)</text>
+        <view class="artists">导演：<block> 史蒂文·斯皮尔伯格 </block></view>
+      </view>
+      <view class="rating">
+        <text>6.8</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2382076389.jpg"/>
+      <view class="meta">
+        <text class="title">从你的全世界路过</text>
+        <text class="sub-title">从你的全世界路过 (2016)</text>
+        <view class="artists">导演：<block> 张一白 </block></view>
+      </view>
+      <view class="rating">
+        <text>5.5</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2388681695.jpg"/>
+      <view class="meta">
+        <text class="title">暗杀游戏</text>
+        <text class="sub-title">Мафия: Игра на выживание (2016)</text>
+        <view class="artists">导演：<block> 萨里·奥德赛耶 </block></view>
+      </view>
+      <view class="rating">
+        <text>3.9</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2387538436.jpg"/>
+      <view class="meta">
+        <text class="title">黑处有什么</text>
+        <text class="sub-title">黑处有什么 (2015)</text>
+        <view class="artists">导演：<block> 王一淳 </block></view>
+      </view>
+      <view class="rating">
+        <text>6.7</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2380681527.jpg"/>
+      <view class="meta">
+        <text class="title">王牌逗王牌</text>
+        <text class="sub-title">王牌逗王牌 (2016)</text>
+        <view class="artists">导演：<block> 王晶 </block></view>
+      </view>
+      <view class="rating">
+        <text>3.6</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2377470803.jpg"/>
+      <view class="meta">
+        <text class="title">爵迹</text>
+        <text class="sub-title">爵迹 (2016)</text>
+        <view class="artists">导演：<block> 郭敬明 </block></view>
+      </view>
+      <view class="rating">
+        <text>3.7</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2390260819.jpg"/>
+      <view class="meta">
+        <text class="title">勇士</text>
+        <text class="sub-title">勇士 (2016)</text>
+        <view class="artists">导演：<block> 宁海强 </block></view>
+      </view>
+      <view class="rating">
+        <text>5.4</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2382529006.jpg"/>
+      <view class="meta">
+        <text class="title">宾虚</text>
+        <text class="sub-title">Ben-Hur (2016)</text>
+        <view class="artists">导演：<block> 提莫·贝克曼贝托夫 </block></view>
+      </view>
+      <view class="rating">
+        <text>5.9</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2384412081.jpg"/>
+      <view class="meta">
+        <text class="title">鲁滨逊漂流记</text>
+        <text class="sub-title">Robinson Crusoe (2016)</text>
+        <view class="artists">导演：<block> 文森特·凯斯特鲁特 </block><block> 本·斯塔森 </block></view>
+      </view>
+      <view class="rating">
+        <text>5.5</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2378140502.jpg"/>
+      <view class="meta">
+        <text class="title">七月与安生</text>
+        <text class="sub-title">七月与安生 (2016)</text>
+        <view class="artists">导演：<block> 曾国祥 </block></view>
+      </view>
+      <view class="rating">
+        <text>7.6</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2378515005.jpg"/>
+      <view class="meta">
+        <text class="title">逗鸟外传：萌宝满天飞</text>
+        <text class="sub-title">Storks (2016)</text>
+        <view class="artists">导演：<block> 尼古拉斯·斯托勒 </block><block> 道格·斯威特兰德 </block></view>
+      </view>
+      <view class="rating">
+        <text>7.7</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2384063655.jpg"/>
+      <view class="meta">
+        <text class="title">地球四季</text>
+        <text class="sub-title">Les saisons (2015)</text>
+        <view class="artists">导演：<block> 雅克·贝汉 </block><block>  雅克·克鲁奥德 </block></view>
+      </view>
+      <view class="rating">
+        <text>7.4</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2382080217.jpg"/>
+      <view class="meta">
+        <text class="title">铠甲勇士捕王</text>
+        <text class="sub-title">铠甲勇士捕王 (2016)</text>
+        <view class="artists">导演：<block> 郑国伟 </block></view>
+      </view>
+      <view class="rating">
+        <text>4.2</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2384346460.jpg"/>
+      <view class="meta">
+        <text class="title">幽灵医院</text>
+        <text class="sub-title">幽灵医院 (2016)</text>
+        <view class="artists">导演：<block> 殷国君 </block></view>
+      </view>
+      <view class="rating">
+        <text>2.4</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2377455123.jpg"/>
+      <view class="meta">
+        <text class="title">星际迷航3：超越星辰</text>
+        <text class="sub-title">Star Trek Beyond (2016)</text>
+        <view class="artists">导演：<block> 林诣彬 </block></view>
+      </view>
+      <view class="rating">
+        <text>7.4</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2387868379.jpg"/>
+      <view class="meta">
+        <text class="title">爱神箭</text>
+        <text class="sub-title">爱神箭 (2016)</text>
+        <view class="artists">导演：<block> 马志全 </block><block> 顾其铭 </block></view>
+      </view>
+      <view class="rating">
+        <text>0</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2381878087.jpg"/>
+      <view class="meta">
+        <text class="title">那年我对你的承诺</text>
+        <text class="sub-title">那年我对你的承诺 (2016)</text>
+        <view class="artists">导演：<block> 林柏松 </block></view>
+      </view>
+      <view class="rating">
+        <text>0</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img1.doubanio.com/view/movie_poster_cover/ipst/public/p2365823697.jpg"/>
+      <view class="meta">
+        <text class="title">冰川时代5：星际碰撞</text>
+        <text class="sub-title">Ice Age: Collision Course (2016)</text>
+        <view class="artists">导演：<block> 麦克·特米尔 </block><block> 加仑·T·楚 </block></view>
+      </view>
+      <view class="rating">
+        <text>6.6</text>
+      </view>
+    </view>
+    <view class="item">
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/ipst/public/p2382541980.jpg"/>
+      <view class="meta">
+        <text class="title">我是哪吒</text>
+        <text class="sub-title">我是哪吒 (2016)</text>
+        <view class="artists">导演：<block> 舒展 </block></view>
+      </view>
+      <view class="rating">
+        <text>4.7</text>
+      </view>
+    </view>
+  </scroll-view>
 </view>
