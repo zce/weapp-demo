@@ -1,0 +1,47 @@
+page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: #f9f9f9;
+  font-family: -apple-system-font, 'Helvetica Neue', Helvetica, 'Microsoft YaHei', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.slide swiper {
+  height: 400rpx;
+}
+
+.slide swiper image {
+  height: 100%;
+  width: 100%;
+}
+
+.board {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.board-item {
+  display: flex;
+  cursor: pointer;
+  border: 1rpx solid #eee;
+  margin: 40rpx;
+  padding: 40rpx;
+}
+
+.board-item text {
+  flex: 1;
+}
+
+.board-item image {
+  height: 40rpx;
+  width: 40rpx;
+}
