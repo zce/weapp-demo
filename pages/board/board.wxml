@@ -1,47 +1,69 @@
 <view class="container">
   <view class="slide">
-    <swiper indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+    <swiper indicator-dots="true" autoplay="true" interval="8000" duration="1000">
       <swiper-item>
-        <image src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg" mode="aspectFill"/>
+        <navigator url="../item/item">
+          <image src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg" mode="aspectFill"/>
+        </navigator>
       </swiper-item>
       <swiper-item>
-        <image src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2386736909.jpg" mode="aspectFill"/>
+        <navigator url="../item/item">
+          <image src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2386736909.jpg" mode="aspectFill"/>
+        </navigator>
       </swiper-item>
       <swiper-item>
-        <image src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2382076389.jpg" mode="aspectFill"/>
+        <navigator url="../item/item">
+          <image src="https://img1.doubanio.com/view/movie_poster_cover/lpst/public/p2382076389.jpg" mode="aspectFill"/>
+        </navigator>
       </swiper-item>
       <swiper-item>
-        <image src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2388681695.jpg" mode="aspectFill"/>
+        <navigator url="../item/item">
+          <image src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2388681695.jpg" mode="aspectFill"/>
+        </navigator>
       </swiper-item>
       <swiper-item>
-        <image src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2387538436.jpg" mode="aspectFill"/>
+        <navigator url="../item/item">
+          <image src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2387538436.jpg" mode="aspectFill"/>
+        </navigator>
       </swiper-item>
     </swiper>
   </view>
   <scroll-view class="board" scroll-y="true">
-    <view class="board-item">
-      <text>正在热映</text>
-      <image src="../../images/arrowright.png" mode="aspectFill"/>
-    </view>
-    <view class="board-item">
-      <text>即将上映</text>
-      <image src="../../images/arrowright.png" mode="aspectFill"/>
-    </view>
-    <view class="board-item">
-      <text>TOP250</text>
-      <image src="../../images/arrowright.png" mode="aspectFill"/>
-    </view>
-    <view class="board-item">
-      <text>口碑榜</text>
-      <image src="../../images/arrowright.png" mode="aspectFill"/>
-    </view>
-    <view class="board-item">
-      <text>新片榜</text>
-      <image src="../../images/arrowright.png" mode="aspectFill"/>
-    </view>
-    <view class="board-item">
-      <text>北美票房榜</text>
-      <image src="../../images/arrowright.png" mode="aspectFill"/>
-    </view>
+    <navigator url="../list/list">
+      <view class="board-item">
+        <text>正在热映</text>
+        <image src="../../images/arrowright.png" mode="aspectFill"/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class="board-item">
+        <text>即将上映</text>
+        <image src="../../images/arrowright.png" mode="aspectFill"/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class="board-item">
+        <text>TOP250</text>
+        <image src="../../images/arrowright.png" mode="aspectFill"/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class="board-item">
+        <text>口碑榜</text>
+        <image src="../../images/arrowright.png" mode="aspectFill"/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class="board-item">
+        <text>新片榜</text>
+        <image src="../../images/arrowright.png" mode="aspectFill"/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class="board-item">
+        <text>北美票房榜</text>
+        <image src="../../images/arrowright.png" mode="aspectFill"/>
+      </view>
+    </navigator>
   </scroll-view>
 </view>
