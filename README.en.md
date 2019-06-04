@@ -1,15 +1,16 @@
-# WeApp Boilerplate
+# weapp-demo
 
-> A boilerplate for wechat weapp runtime
+> A demo for wechat weapp runtime
 
-[![Build Status](https://travis-ci.org/zce/weapp-boilerplate.svg?branch=master)](https://travis-ci.org/zce/weapp-boilerplate)
-[![Dependency Status](https://david-dm.org/zce/weapp-boilerplate.svg)](https://david-dm.org/zce/weapp-boilerplate)
-[![devDependency Status](https://david-dm.org/zce/weapp-boilerplate/dev-status.svg)](https://david-dm.org/zce/weapp-boilerplate#info=devDependencies)
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
+[![Build Status][travis-image]][travis-url]
+[![License][license-image]][license-url]
+[![Dependency Status][dependency-image]][dependency-url]
+[![devDependency Status][devdependency-image]][devdependency-url]
+[![Code Style][style-image]][style-url]
 
 ## For Chinese
 
-[中文说明](./README.md)
+[中文说明](README.md)
 
 ## Clone it
 
@@ -37,7 +38,20 @@ $ npm run watch
 
 then, open `dist` in wechat devtools
 
-
 ## License
 
-MIT &copy; [汪磊](http://github.com/zce)
+[MIT](LICENSE) &copy; [汪磊](https://zce.me)
+
+
+
+[travis-image]: https://img.shields.io/travis/zce/weapp-demo.svg
+[travis-url]: https://travis-ci.org/zce/weapp-demo
+[license-image]: https://img.shields.io/github/license/zce/weapp-demo.svg
+[license-url]: https://github.com/zce/weapp-demo/blob/master/LICENSE
+[dependency-image]: https://img.shields.io/david/zce/weapp-demo.svg
+[dependency-url]: https://david-dm.org/zce/weapp-demo
+[devdependency-image]: https://img.shields.io/david/dev/zce/weapp-demo.svg
+[devdependency-url]: https://david-dm.org/zce/weapp-demo?type=dev
+[style-image]: https://img.shields.io/badge/code%20style-standard-brightgreen.svg
+[style-url]: http://standardjs.com
+
